@@ -1,2 +1,2 @@
-# krishanth-n.github.io
+# kri-nagend.github.io
 My personal website
