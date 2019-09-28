@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>contact works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<br>\n<h2 class=\"title is-3\">\n  &nbsp;\n  Contact information\n  <br>\n</h2>\n<body>\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  <b>Email:</b> kri.nagend@gmail.com <br>\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  <b>Phone:</b> (647)-889-5691 <br><br>\n\t&nbsp;&nbsp;<a href=\"https://www.linkedin.com/in/kri-nagendrasooriyar/\"><img src=\"assets/img/linkedin.png\" height=\"60\" width=\"60\"></a>&nbsp;&nbsp;\n\t&nbsp;&nbsp;<a href=\"http://github.com/kri-nagend\"><img src=\"assets/img/github.png\" height=\"60\" width=\"60\"></a>&nbsp;&nbsp;\n  &nbsp;&nbsp;<a href=\"https://www.facebook.com/kri.nagendrasooriyar\"><img src=\"assets/img/facebook.png\" height=\"60\" width=\"60\"></a>&nbsp;&nbsp;\n</body>\n");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"hero is-light\">\n  <div class=\"hero-body\">\n    <div class=\"container has-text-centered\">\n      <h1 class=\"title\">\n        Kri Nagendrasooriyar's Personal Website\n      </h1>\n    </div>\n  </div>\n</section>\n\n<!--Navigation Bar-->\n<div class=\"navbar is-light\">\n  <div class=\"navbar-brand\">\n    <!--Home-->\n    <a class=\"navbar-item\" [routerLink]=\"''\">\n      <img src=\"assets/img/home.png\">\n    </a>\n    <div class=\"navbar-item has-dropdown is-hoverable\">\n      <a class=\"navbar-link\" [routerLink]=\"'/resume'\">\n        Resume\n      </a>\n        <div class=\"navbar-dropdown is-transparent\">\n          <a class=\"navbar-item\" [routerLink]=\"'/resume'\">\n            Overview\n          </a>\n          <hr class=\"navbar-divider\">\n          <a class=\"navbar-item\" href=\"assets/dl/kri.pdf\" download=\"Kri.Nagendrasooriyar.Resume.pdf\">\n            Download .PDF\n          </a>\n          <a class=\"navbar-item\" href=\"assets/dl/kri.docx\" download=\"Kri.Nagendrasooriyar.Resume.docx\">\n            Download .DOCX\n          </a>\n        </div>\n      </div>\n      <a class=\"navbar-item\" [routerLink]=\"'/projects'\">\n        Projects\n      </a>\n      <a class=\"navbar-item\" [routerLink]=\"'/contactMe'\">\n        Contact Me\n      </a>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"hero is-light\">\n  <div class=\"hero-body\">\n    <div class=\"container has-text-centered\">\n      <h1 class=\"title\">\n        Kri Nagendrasooriyar's Personal Website\n      </h1>\n    </div>\n  </div>\n</section>\n\n<!--Navigation Bar-->\n<div class=\"navbar is-light\">\n  <div class=\"navbar-brand\">\n    <!--Home-->\n    <a class=\"navbar-item\" [routerLink]=\"''\">\n      <img src=\"assets/img/home.png\">\n    </a>\n    <div class=\"navbar-item has-dropdown is-hoverable\">\n      <a class=\"navbar-link\" [routerLink]=\"'/resume'\">\n        Resume\n      </a>\n        <div class=\"navbar-dropdown is-transparent\">\n          <a class=\"navbar-item\" [routerLink]=\"'/resume'\">\n            Overview\n          </a>\n          <hr class=\"navbar-divider\">\n          <a class=\"navbar-item\" href=\"assets/dl/kri.pdf\" rel=\"nofollow\">\n            View PDF Online\n          </a>\n          <a class=\"navbar-item\" href=\"assets/dl/kri.pdf\" download=\"Kri.Nagendrasooriyar.Resume.pdf\">\n            Download PDF\n          </a>\n          <a class=\"navbar-item\" href=\"assets/dl/kri.docx\" download=\"Kri.Nagendrasooriyar.Resume.docx\">\n            Download DOCX\n          </a>\n        </div>\n      </div>\n      <a class=\"navbar-item\" [routerLink]=\"'/projects'\">\n        Projects\n      </a>\n      <a class=\"navbar-item\" [routerLink]=\"'/contactMe'\">\n        Contact Me\n      </a>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>home works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<br>\n<h2 class=\"title is-3\">\n  &nbsp;\n  About Me\n  <br>\n</h2>\n\n<body>\n  &nbsp;\n  &nbsp;\n  My name is Kri Nagendrasooryiar. I'm a Computer Engineering graduate from the University of Western Ontario, class of 2018.\n</body>\n\n<div class=\"headinfo\">\n\t<p class=\"para1\">\n    &nbsp;\n    &nbsp;\n\t\tI enjoy learning new things and, building cool stuff\n\t</p>\n  <p class = \"para1\">\n    &nbsp;\n    &nbsp;\n    Currently employed at TD Bank as a software developer\n  </p>\n\t<p class=\"para1\">\n    <br>\n    <br>\n    <br>\n\t</p>\n</div>\n");
 
 /***/ }),
 
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>projects works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<br>\n<h2 class=\"title is-3\">\n  &nbsp;\n  My Projects\n  <br>\n</h2>\n\n<div class=\"card\">\n  <header class=\"card-header\">\n    <p class=\"card-header-title\">\n      London Hydro Mobile App (May 2017 to Sept. 2018)\n    </p>\n  </header>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      &nbsp;&nbsp;- Mobile app for London Hydro users to be able to monitor their real-time power consumption, view their carbon footprint, and download their monthly bill<br>\n      &nbsp;&nbsp;- Developed using Swift<br>\n      &nbsp;&nbsp;- Developed RESTful API calls to fetch data, sign in and submit support tickets<br>\n      &nbsp;&nbsp;- Developed as a large team using Agile/Scrum software methodology<br>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <header class=\"card-header\">\n    <p class=\"card-header-title\">\n      London Hydro Outage API (May 2017 to Sept. 2017)\n    </p>\n  </header>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      &nbsp;&nbsp;- Created a ReST API that would provide current outage information to London Hydro's customer IVR system <br>\n      &nbsp;&nbsp;- Designed to perform a SQL query on a database, convert the result to JSON format<br>\n      &nbsp;&nbsp;- Written in Python 3.6, and hosted using an AWS lambda instance<br>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <header class=\"card-header\">\n    <p class=\"card-header-title\">\n      Personal Website (May 2017 to Current)\n    </p>\n  </header>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      &nbsp;&nbsp;- Developed in Angular<br>\n      &nbsp;&nbsp;- Coded and designed from scratch<br>\n      &nbsp;&nbsp;- Site consists of a static front-end<br>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -97,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>resume works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<br>\n<h2 class=\"title is-3\">\n  &nbsp;\n  My Resume\n  <br>\n</h2>\n\n<div class=\"card\">\n  <header class=\"card-header\">\n    <p class=\"card-header-title\">\n      My Employment\n    </p>\n  </header>\n  <div class=\"card-content\">\n    <div class=\"content\">\n\t\t\t&nbsp;&nbsp;<b>TD Bank</b><br>\n\t\t\t&nbsp;&nbsp;<b>Software Developer - Toronto, ON - (July 2019 - Current)</b><br>\n\t\t\t&nbsp;&nbsp;- Developed Java application to automate and monitor data ingestion<br>\n\t\t\t&nbsp;&nbsp;- Automation application reduced ingestion process time by ~70%<br>\n\t\t\t&nbsp;&nbsp;- Coordinated project details between different departments within TD<br>\n\t\t\t<br>\n\t\t\t&nbsp;&nbsp;<b>London Hydro</b><br>\n\t\t\t&nbsp;&nbsp;<b>Software Developer - London, ON - (April 2018 - Sept. 2018)</b><br>\n\t\t\t&nbsp;&nbsp;- Supported London Hydro's iOS app developer using Swift<br>\n\t\t\t&nbsp;&nbsp;- Developed iOS page to set and track energy usage goals<br>\n\t\t\t&nbsp;&nbsp;- Developed Java application to communicate with London Hydro's mobile app<br>\n\t\t\t&nbsp;&nbsp;- Used Jira and Confluence for project tracking and documentation<br>\n\t\t\t<br>\n\t\t\t&nbsp;&nbsp;<b>London Hydro</b><br>\n\t\t\t&nbsp;&nbsp;<b>Software Developer Intern - London, ON - (April 2017 - Sept. 2017)</b><br>\n\t\t\t&nbsp;&nbsp;- Developed multi-step sign up feature for London Hydro's Trickl app (iOS)<br>\n\t\t\t&nbsp;&nbsp;- Created a python API to track current outages, and report them to a 3rd party<br>\n\t\t\t&nbsp;&nbsp;- API was hosted on AWS, and communicated with an Oracle database<br>\n\t\t\t<br>\n\t\t\t&nbsp;&nbsp;<b>VS IDEAS</b><br>\n\t\t\t&nbsp;&nbsp;<b>Web Developer Intern - Markham, ON - (April 2016 - Sept. 2016)</b><br>\n\t\t\t&nbsp;&nbsp;- Developed and maintained company website<br>\n\t\t\t&nbsp;&nbsp;- Discussed website requirements, expectations and deadlines with clients<br>\n\t\t\t&nbsp;&nbsp;- Both developed using PHP<br>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <header class=\"card-header\">\n    <p class=\"card-header-title\">\n      My Education\n    </p>\n  </header>\n  <div class=\"card-content\">\n    <div class=\"content\">\n\t\t\t&nbsp;&nbsp;<b>University of Western Ontario</b><br>\n\t\t\t&nbsp;&nbsp;<b>B.E.Sc. Computer Engineering 2018</b><br>\n\t\t\t&nbsp;&nbsp;GPA: 3.7/4.0<br>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <header class=\"card-header\">\n    <p class=\"card-header-title\">\n      My Skills\n    </p>\n  </header>\n  <div class=\"card-content\">\n    <div class=\"content\">\n\t\t\t&nbsp;&nbsp;<b>Object-Oriented: </b> Java, Python, C++, C#<br/>\n\t\t\t&nbsp;&nbsp;<b>Web Development: </b> Angular, HTML/CSS, PHP, JavaScript, JQuery, React<br/>\n\t\t\t&nbsp;&nbsp;<b>Mobile Development: </b> iOS, Android<br/>\n\t\t\t&nbsp;&nbsp;<b>Middleware: </b> AWS, Google Cloud<br/>\n\t\t\t&nbsp;&nbsp;<b>Other: </b>Git, SQL, MongoDB, Jira<br/>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -357,19 +357,31 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     {
         path: '',
-        component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
+        component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"],
+        data: {
+            title: 'Kri\'s Website'
+        }
     },
     {
         path: 'resume',
-        component: _resume_resume_component__WEBPACK_IMPORTED_MODULE_4__["ResumeComponent"]
+        component: _resume_resume_component__WEBPACK_IMPORTED_MODULE_4__["ResumeComponent"],
+        data: {
+            title: 'Kri\'s Resume'
+        }
     },
     {
         path: 'projects',
-        component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_5__["ProjectsComponent"]
+        component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_5__["ProjectsComponent"],
+        data: {
+            title: 'Kri\'s Projects'
+        }
     },
     {
         path: 'contactMe',
-        component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"]
+        component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"],
+        data: {
+            title: 'Contact Kri'
+        }
     }
 ];
 let AppRoutingModule = class AppRoutingModule {
@@ -404,7 +416,6 @@ __webpack_require__.r(__webpack_exports__);
 let AppComponent = class AppComponent {
     constructor(titleService) {
         this.titleService = titleService;
-        this.title = 'my-angular-site';
     }
     ngOnInit() {
         this.setTitle('Kri\'s Website');
@@ -521,13 +532,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+
 
 
 let ContactComponent = class ContactComponent {
-    constructor() { }
+    constructor(titleService) {
+        this.titleService = titleService;
+    }
     ngOnInit() {
+        this.setTitle('Contact Kri');
+    }
+    setTitle(newTitle) {
+        this.titleService.setTitle(newTitle);
     }
 };
+ContactComponent.ctorParameters = () => [
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["Title"] }
+];
 ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-contact',
@@ -653,13 +675,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+
 
 
 let HomeComponent = class HomeComponent {
-    constructor() { }
+    constructor(titleService) {
+        this.titleService = titleService;
+    }
     ngOnInit() {
+        this.setTitle('Kri\'s Website');
+    }
+    setTitle(newTitle) {
+        this.titleService.setTitle(newTitle);
     }
 };
+HomeComponent.ctorParameters = () => [
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["Title"] }
+];
 HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-home',
@@ -697,13 +730,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsComponent", function() { return ProjectsComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+
 
 
 let ProjectsComponent = class ProjectsComponent {
-    constructor() { }
+    constructor(titleService) {
+        this.titleService = titleService;
+    }
     ngOnInit() {
+        this.setTitle('Kri\'s Projects');
+    }
+    setTitle(newTitle) {
+        this.titleService.setTitle(newTitle);
     }
 };
+ProjectsComponent.ctorParameters = () => [
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["Title"] }
+];
 ProjectsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-projects',
@@ -741,13 +785,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return ResumeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+
 
 
 let ResumeComponent = class ResumeComponent {
-    constructor() { }
+    constructor(titleService) {
+        this.titleService = titleService;
+    }
     ngOnInit() {
+        this.setTitle('Kri\'s Resume');
+    }
+    setTitle(newTitle) {
+        this.titleService.setTitle(newTitle);
     }
 };
+ResumeComponent.ctorParameters = () => [
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["Title"] }
+];
 ResumeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-resume',
